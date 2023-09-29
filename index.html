@@ -1,72 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
-    <style>
-       
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStudio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+JwIsVzvLWkFpqF4a6O8KG6taf0AnR/9aQ8aVr+Oj2zeJ5Fj" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+  <header>
+    <section class="header ">
+     <div class="menu">
         <nav>
-            <ul>
-                <li><a href="#">WebStudio</a></li>
-                <li><a href="#">Студія</a></li>
-                <li><a href="#">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
-            </ul>
-        </nav>
-        <address>
-            <p>info@devstudio.com</p>
-            <p>+38 096 111 11 11</p>
-        </address>
-    </header>
-    
-    <main>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <section class="intro">
-            <button type="button">Замовити послугу</button>
-        </section>
-        
-        <section class="about">
-            <p>УВАГА ДО ДЕТАЛЕЙ</p>
-            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            
-            <h2>ПУНКТУАЛЬНІСТЬ</h2>
-            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+          <h5>WebStudio</h5>
+          <ul>
+            <li><a href="#">Портфоліо</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Контакти</a></li>
+             <li><a href="">info@devstudio.com</a></li>
+             <li>+38 096 111 11 11</li>
+         </nav>
+        </ul>
+     </div>
+   </header>
+  </section>
+  <main>
+    <section class="about">
+      <div class="container__box">
+        <h2>Ефективні рішення для вашого бізнесу</h2>
 
-            <h2>ПЛАНУВАННЯ</h2>
-            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+        <button type="button">Замовити послугу</button>
 
-            <h2>СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+        <ul>
+
+          <h2>Увага до деталей</h2> 
+
+              <li>
+                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+              </li>
+
+          <h2>Пунктуальність</h2>
+
+              <li>
+                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+              </li>
+
+          <h2>Планування</h2>
+
+               <li>
+                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+              </li>
+
+          <h2>Сучасні технології</h2>
+
+          <li>
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-            
-        </section>
+          </li>
 
-        <section id="work">
-            <h2>Чим ми займаємося</h2>
-            <img src="src/images/img1.jpg" alt="#1">
-            <img src="src/images/img2.jpg" alt="#2">
-            <img src="src/images/img3.jpg" alt="#3">
-        </section>
-    </main>
-    
-    <footer>
+        </ul>
+      </div>
+    </section>
 
-            <section id="comand">
-                <h2>Наша команда</h2>
-                <img src="src/images/img1-1.jpg" alt="#1">
-                <img src="src/images/img1-2.jpg" alt="#2">
-                <img src="src/images/img1-3.jpg" alt="#3">
-                <img src="src/images/img1-4.jpg" alt="#4">
-            </section>
-    
-        <address>
-            <p>info@devstudio.com</p>
-            <p>+38 096 111 11 11</p>
-        </address>
-    </footer>
+    <section class="services">
+      <div class="container__card">
+
+        <h2>Чим ми займаємося</h2>
+
+        
+        <img src="src/images/decstop.jpg" style="width: 270px;" alt="decstop">   
+
+        <img src="src/images/phone.jpg" style="width: 270px;" alt="phone">
+
+        <img src="src/images/design.jpg" style="width: 270px;" alt="design">1     
+      </div>
+    </section>
+    <section class="team">
+      <div class="container_team">
+        <h2>Наша команда</h2>
+        <ul>
+          <div class="card">
+            <img src="src/images/igor.jpg"  style="width: 270px;" alt="Ігор Дем'яненко photo">
+            <div class="card-body">
+              <h4><p>Ігор Дем'яненко</p></h4>
+          <li>Product Designer</li>
+        </div>
+      </div>
+      
+      <div class="card" >
+        <img src="src/images/mihailo.jpg"  style="width: 270px;"  alt="Михайло Єрмаков photo">
+        <div class="card-body">
+          <h4><p>Михайло Єрмаков</p></h4>
+          <li>UI Designer</li>
+          </div>
+
+        </div>
+        <div class="card">
+          <img src="src/images/micola.jpg"  style="width: 270px;" alt="Микола Тарасов photo">
+          <div class="card-body">
+            <h4><p>Микола Тарасов</p></h4>
+            <li>Marketing</li>
+      </div>
+      </div>
+
+      <div class="card">
+        <img src="src/images/olga.jpg"  style="width: 270px;"alt="Ольга Рєпіна photo">
+        <div class="card-body">
+          <h4><p>Ольга Рєпіна</p></h4>
+          <li>Frontend Developer</li>
+      </div>
+      </div>
+     
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="">
+      <address>
+        м. Київ, пр-т Лесі Українки, 26<br>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      </address>
+    </div>
+  </footer>
+  
 </body>
 </html>
