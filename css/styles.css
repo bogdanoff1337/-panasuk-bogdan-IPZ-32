@@ -1,0 +1,36 @@
+:root {
+  --text-color: #333;
+  --background-color: #fff;
+  --highlight-color: #ff6600;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px; 
+  line-height: 1.5; 
+  color: var(--text-color);
+  font-weight: 400; 
+}
+.p {
+    font-size: 14px;
+}
+
+a:hover, a:focus, button:hover, button:focus {
+    color: #ff6600; 
+    cursor: pointer; 
+  }
+  
+
+  .header-contact:hover, .header-contact:focus,
+  .footer-contact:hover, .footer-contact:focus {
+    color: #ff6600;
+  }
+  
+ 
+  a {
+    text-decoration: none; 
+  }
+  
