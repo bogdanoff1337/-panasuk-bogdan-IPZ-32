@@ -1,7 +1,7 @@
 :root {
   --text-color: #333;
   --background-color: #fff;
-  --highlight-color: #ff6600;
+  --highlight-color: #2196F3;
 }
 
 body {
@@ -19,14 +19,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:hover, a:focus, button:hover, button:focus {
-    color: #2196F3; 
+    color: var(--highlight-color); 
     cursor: pointer; 
   }
   
 
   .header-contact:hover, .header-contact:focus,
   .footer-contact:hover, .footer-contact:focus {
-    color: #2196F3;
+    color: var(--highlight-color);
   }
   
  
