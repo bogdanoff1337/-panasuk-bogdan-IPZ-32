@@ -305,3 +305,47 @@ letter-spacing: 1.08px;
   color: #FFF;
   font-style: normal;
 }
+
+.portfolio__btn{
+
+  display: inline-block;
+  padding: 6px 22px;
+  border-style: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-style: none;
+  border-radius: 4px;
+  color: #212121;
+  background-color: #F5F4FA;
+  transition-duration: 0.5s;
+  transition-property: transform, background-color;
+}
+
+.portfolio__btn:hover{
+  background-color: #2196F3;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.product-tittle{
+  color: #212121;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
+}
+
+.product-description{
+  color: #757575;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+}
