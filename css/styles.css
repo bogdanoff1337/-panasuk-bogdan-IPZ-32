@@ -7,6 +7,7 @@
   --text-color: #333;
   --background-color: #fff;
   --highlight-color: #2196F3;
+  --dark-color:#000;
 }
 
 body {
@@ -24,13 +25,14 @@ body {
   padding-top: 50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h4, h5, h6 {
   font-size: 16px; 
   line-height: 1.5; 
   color: var(--text-color);
   font-weight: 400; 
 }
-.p {
+
+p {
     font-size: 14px;
 }
 
@@ -38,7 +40,7 @@ ul{
   list-style: none;
 }
 
-a:hover, a:focus {
+a:hover {
     color: var(--highlight-color); 
     cursor: pointer; 
   }
@@ -88,6 +90,8 @@ a:hover, a:focus {
   .nav__menu-link {
     color: #212121;
     font-weight: 500;
+    font-size: 14px;
+    
   }
 
   .logo {
@@ -138,7 +142,6 @@ a:hover, a:focus {
   }
   
   .logo__white {
-
     margin-bottom: 20px;
     color: #ffffff;
   }
@@ -151,20 +154,21 @@ a:hover, a:focus {
     
   }
 
-  .about__box .about__title {
+   .about__title {
+    width: 696px;
     margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
-    font-size: 26px;
+    font-size: 44px;
     font-weight: 900;
-    font-size: 26px;
     line-height: 1.62;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    max-width: 360px;
+    
   }
+
   .about__btn{
     color: #FFF;
     cursor: pointer;
@@ -172,7 +176,7 @@ a:hover, a:focus {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; 
     letter-spacing: 0.96px;
     width: 200px;
     height: 50px;
@@ -181,6 +185,10 @@ a:hover, a:focus {
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
+  .about__btn:hover{
+    background-color:  #188CE8;
+  }
+
 
   .task {
     background-color: #ffffff;
@@ -205,6 +213,7 @@ a:hover, a:focus {
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    tab-size: 14px;
   
   }
   
@@ -257,11 +266,13 @@ letter-spacing: 1.08px;
   color: #212121;
   font-weight: 500;
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 .card__text {
   color: #757575;
   padding-bottom: 30px;
+  font-size: 16px;
 }
 
 .footer{
@@ -283,10 +294,11 @@ letter-spacing: 1.08px;
 }
 
 .contacts {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.60);;
   font-style: normal;
   line-height: 114%;
   letter-spacing: 0.42px;
+  font-size: 14px;
 }
 
 .google-maps {
