@@ -13,6 +13,17 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.list{
+  display: flex;
+  padding-top: 50px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 16px; 
   line-height: 1.5; 
@@ -113,8 +124,6 @@ a:hover, a:focus {
     letter-spacing: 0.03em;
   }
 
-
-  
   .site-logo {
     display: block;
     color: #000000;
@@ -123,17 +132,15 @@ a:hover, a:focus {
     font-weight: 700;
     line-height: 1.2;
   }
-  .site-logo__accent {
+
+  .logo__blue {
     color: #2196f3;
   }
   
-  .footer__logo {
-    display: block;
+  .logo__white {
+
     margin-bottom: 20px;
     color: #ffffff;
-  }
-  .footer__logo__accent {
-    color: #2196f3;
   }
 
   .about__box {
@@ -174,3 +181,115 @@ a:hover, a:focus {
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
+
+  .task {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .task-list {
+    display: flex;
+    width: 1170px;
+    gap: 30px;
+  }
+  
+  .task-item {
+    max-width: 270px;
+  }
+  
+  .task-title {
+    color: #212121;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  
+  }
+  
+  .task-description {
+    color: #757575;
+    line-height: 170%;
+    letter-spacing: 0.42px;
+  }
+
+.about__us{
+  margin: 94px 0;
+}
+
+.title{
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+.design-list{
+  gap: 30px;
+
+}
+
+.team {
+  padding: 94px 0;
+  background-color: #F5F4FA;
+}
+
+.team__list {
+  gap: 30px;
+}
+
+.card {
+  background-color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-img {
+  padding-bottom: 30px;
+}
+
+.card__title {
+  color: #212121;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.card__text {
+  color: #757575;
+  padding-bottom: 30px;
+}
+
+.footer{
+  background-color: #2F303A;
+
+}
+
+.logo__footer {
+  padding-top: 60px;
+  padding-bottom: 28px;
+}
+
+.contact--item {
+  padding-bottom: 10px;
+}
+
+.contact--item:last-child {
+  padding-bottom: 60px;
+}
+
+.contacts {
+  color: #757575;
+  font-style: normal;
+  line-height: 114%;
+  letter-spacing: 0.42px;
+}
+
+.google-maps {
+  color: #FFF;
+  font-style: normal;
+}

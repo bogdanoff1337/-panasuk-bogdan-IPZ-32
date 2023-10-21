@@ -14,7 +14,7 @@
   <header>
     <div class="menu menu_list">
     <div class="logo"> <a class="site-logo link" href="/index.html" lang="en"
-      ><span class="site-logo__accent">Web</span>Studio</a></div>
+      ><span class="logo__blue">Web</span>Studio</a></div>
         <ul class="nav__menu-list">
           <li class="nav__menu-link"><a href="/index.html">Студія</a></li>
           <li class="nav__menu-link"><a href="/portfolio.html">Портфоліо</a></li>
@@ -28,89 +28,102 @@
     </div>
   </header>
   <main>
-    <section class="about__us">
+    <section>
       <div class="about__box">
         <h1 class="about__title">Ефективні рішення для вашого бізнесу</h1>
         <button class="about__btn" type="button">Замовити послугу</button>
       </div>
     </section>
-    <section class="about_us">
-        <ul>
-          <li>
-            <h3>Увага до деталей</h3>
-            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+    <section class="task">
+      <div class="container">
+        <ul class="task-list">
+          <li class="task-item">
+            <h3 class="task-title">Увага до деталей</h3>
+            <p class="task-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
           </li>
-          <li>
-            <h3>Пунктуальність</h3>
-            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+          <li class="task-item">
+            <h3 class="task-title">Пунктуальність</h3>
+            <p class="task-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
           </li>
-          <li>
-            <h3>Планування</h3>
-            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+          <li class="task-item">
+            <h3 class="task-title">Планування</h3>
+            <p class="task-description">Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
-          <li>
-            <h3>Сучасні технології</h3>
-            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+          <li class="task-item">
+            <h3 class="task-title">Сучасні технології</h3>
+            <p class="task-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
+      </div>
+      
       </section>
     
-    <section class="services">
-      <div class="container__card">
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li><img src="src/images/decstop.jpg" width = "270px" alt="desktop"></li>
-          <li><img src="src/images/phone.jpg" width = "270px" alt="phone"></li>
-          <li><img src="src/images/design.jpg" width = "270px" alt="design"></li>
+    <section class="about__us">
+      <div class="container">
+        <h2 class="title">Чим ми займаємося</h2>
+        <ul class="design-list list">
+          <li><img src="src/images/decstop.jpg" width = "370" alt="desktop"></li>
+          <li><img src="src/images/phone.jpg" width = "370" alt="phone"></li>
+          <li><img src="src/images/design.jpg" width = "370" alt="design"></li>
         </ul>
       </div>      
     </section>
     <section class="team">
-      <div class="container__team">
-        <h2>Наша команда</h2>
-        <ul>
+      <div class="container">
+        <h2 class="title">Наша команда</h2>
+        <ul class="team__list list">
           <li class="card">
             <img src="src/images/igor.jpg"  width = "270px" alt="Ігор Дем'яненко photo">
             <div class="card-body">
-              <h3>Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+              <h3 class="card__title">Ігор Дем'яненко</h3>
+              <p class="card__text">Product Designer</p>
             </div>
           </li>
           <li class="card">
             <img src="src/images/mihailo.jpg"  width = "270px"  alt="Михайло Єрмаков photo">
             <div class="card-body">
-              <h3>Михайло Єрмаков</h3>
-              <p>UI Designer</p>
+              <h3 class="card__title">Михайло Єрмаков</h3>
+              <p class="card__text">UI Designer</p>
             </div>
           </li>
           <li class="card">
             <img src="src/images/micola.jpg"  width = "270px" alt="Микола Тарасов photo">
             <div class="card-body">
-              <h3>Микола Тарасов</h3>
-              <p>Marketing</p>
+              <h3 class="card__title">Микола Тарасов</h3>
+              <p class="card__text">Marketing</p>
             </div>
           </li>
           <li class="card">
             <img src="src/images/olga.jpg"  width = "270px" alt="Ольга Рєпіна photo">
             <div class="card-body">
-              <h3>Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+              <h3 class="card__title">Ольга Рєпіна</h3>
+              <p class="card__text">Frontend Developer</p>
             </div>
           </li>
         </ul>
       </div>
     </section>
   </main>
-  <footer>
-    <div class="links">
-      <a class="footer__logo site-logo link" href="/" lang="en"
-      ><span class="site-logo__accent">Web</span>Studio</a>
+  <footer class="footer">
+    <div class="container">
+    <div class="site-logo logo__footer">
+      <span class="logo__blue">Web</span><span class="logo__white">Studio</span></div>
       <address>
-        м. Київ, пр-т Лесі Українки, 26
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class="footer-contact">
+          <li class="contact--item">
+              <a class="google-maps" href="https://www.google.com/maps?q=м. Київ, пр-т Лесі Українки, 26" 
+              target="_blank" rel="nofollow" referrerpolicy="no-referrer">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li class="contact--item">
+              <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="contact--item">
+              <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+      </ul>
       </address>
     </div>
+  </div>
   </footer>
 </body>
 </html>
