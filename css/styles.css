@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --text-color: #333;
   --background-color: #fff;
@@ -18,7 +23,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-a:hover, a:focus, button:hover, button:focus {
+ul{
+  list-style: none;
+}
+
+a:hover, a:focus {
     color: var(--highlight-color); 
     cursor: pointer; 
   }
@@ -33,4 +42,135 @@ a:hover, a:focus, button:hover, button:focus {
   a {
     text-decoration: none; 
   }
+   
+  .header {
+    background-color: #fff;
+  }
   
+  .menu{
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    
+  }
+
+  .menu_list {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .contact {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+  }
+  
+  .nav__menu-list {
+    width: 281px;
+    display: flex;
+    gap: 50px;
+    padding-right: 354px;
+  }
+  
+  .nav__menu-link {
+    color: #212121;
+    font-weight: 500;
+  }
+
+  .logo {
+    margin-right: 93px;
+    padding: 24px 0;
+  }
+
+  .header .site-logo {
+    color: var(--dark-color);
+  }
+
+  .email {
+    width: 135px;
+    color: #757575;
+  }
+
+  .phone {
+    width: 122px;
+    color: #757575;
+  }
+
+  .list {
+    display: flex;
+    padding-top: 50px;
+  
+  }
+
+  .site-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  
+    letter-spacing: 0.03em;
+  }
+
+
+  
+  .site-logo {
+    display: block;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .site-logo__accent {
+    color: #2196f3;
+  }
+  
+  .footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .footer__logo__accent {
+    color: #2196f3;
+  }
+
+  .about__box {
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 94px;
+    background-color: #2f303a;  
+    
+  }
+
+  .about__box .about__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    max-width: 360px;
+  }
+  .about__btn{
+    color: #FFF;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
