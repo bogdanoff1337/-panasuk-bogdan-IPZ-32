@@ -292,6 +292,20 @@ p {
   color: var(--white-color);
 }
 
+
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+
+.portfolio__filter-btn{
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  gap: 8px;
+
+}
+
 .portfolio__btn {
   display: inline-block;
   padding: 6px 22px;
@@ -311,6 +325,11 @@ p {
 .portfolio__btn:hover {
   background-color: var(--accent-color); 
   color: var(--white-color); 
+}
+
+.product-text{
+  width: 322px;
+  padding: 20px;
 }
 
 .product-tittle {
