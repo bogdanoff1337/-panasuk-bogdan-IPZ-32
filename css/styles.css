@@ -334,7 +334,7 @@ p {
 
 .product-tittle {
   color: var(--title-text-color); 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -344,7 +344,7 @@ p {
 
 .product-description {
   color: var(--post-text-color); 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
