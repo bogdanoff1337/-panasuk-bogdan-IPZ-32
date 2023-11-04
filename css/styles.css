@@ -199,12 +199,14 @@ p {
 
 .task-title {
   color: var(--title-text-color); 
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  tab-size: 14px;
+ 
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
 }
 
 .task-description {
@@ -290,6 +292,13 @@ p {
 
 .google-maps {
   color: var(--white-color);
+  
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+letter-spacing: 0.42px;
 }
 
 
@@ -308,6 +317,7 @@ p {
 
 .portfolio__btn {
   display: inline-block;
+  cursor: pointer;
   padding: 6px 22px;
   border-style: none;
   border-radius: 4px;
