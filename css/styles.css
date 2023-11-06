@@ -1,3 +1,5 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +39,10 @@ a {
   transition-duration: 0.5s;
 }
 
+.section{
+  padding: 94px 0;
+}
+
 a:hover {
   color: var(--accent-color); 
 }
@@ -66,14 +72,9 @@ p {
 
 .header {
   background-color: #fff;
+  border-bottom: 1px solid #ECECEC;
 }
 
-.menu {
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
 
 .menu_list {
   display: flex;
@@ -302,9 +303,7 @@ letter-spacing: 0.42px;
 }
 
 
-.header {
-  border-bottom: 1px solid #ECECEC;
-}
+
 
 
 .portfolio__filter-btn{
@@ -318,6 +317,7 @@ letter-spacing: 0.42px;
 .portfolio__btn {
   display: inline-block;
   cursor: pointer;
+  font-family: Roboto;
   padding: 6px 22px;
   border-style: none;
   border-radius: 4px;
