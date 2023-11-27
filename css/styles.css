@@ -6,6 +6,9 @@
  
 }
 
+*, *::before, *::after {   box-sizing: border-box; }
+
+
 :root {
   --white-color: #ffffff;
   --dark-color: #000000;
@@ -90,6 +93,12 @@ p {
   gap: 40px;
   font-weight: 500;
   margin-left: auto;
+  letter-spacing: 0.42px;
+  align-items: center;
+}
+
+.icon_contact{
+  fill: #2196f3;
 }
 
 .nav__menu-list {
@@ -191,7 +200,14 @@ p {
   color: var(--white-color);
 }
 
-
+.icon-task{
+  border-radius: 4px;
+background: #F5F4FA;
+padding: 25px 100px;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+}
 
 .task {
   background-color: var(--white-bgcolor);
@@ -282,7 +298,48 @@ p {
   font-size: 16px;
 }
 
+.card_icon_social {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
 
+.card_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white);
+  transition: color 0.3s ease;
+}
+
+.card_icon:hover{
+  background-color: var(--secondary_color);
+}
+
+.social:hover{
+  fill: #2196F3;
+}
+
+.social{
+  fill :#AFB1B8;
+  transition: color 0.3s ease;
+}
+
+.card_icon_social{
+  fill: var(--title-text-color);
+}
+
+.card_icon_social .card_icon:hover svg,                                          
+.card_icon_social .card_icon:hover .social,
+.card_icon_social .card_icon:hover .social::before{
+  fill: #2196F3;
+}
 
 .card__title {
   color: var(--title-text-color);
@@ -298,8 +355,60 @@ p {
 
 .card__text {
   color: var(--post-text-color);
-  padding-bottom: 30px;
+ 
   font-size: 16px;
+}
+
+.icon-client{
+  fill: #AFB1B8;
+  width: 106px;
+  height: 60px;
+  transition: color 0.3s ease;
+}
+
+.clients-list{
+  display: flex ;
+}
+
+.clients{
+  padding: 94px 0;
+}
+
+.clients_title{
+  color: var(--none_black);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.clients-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  transition: color 0.3s ease;
+}
+
+.clients-list :not(:last-child){
+  margin-right: 30px;
+}
+
+
+.clients-item:hover
+{
+  fill: #2196f3;
+   border: 1px solid #2196f3;
+}
+
+.clients-list .clients-item:hover svg,                                          
+.clients-list .clients-item:hover .icon-client,
+.clients-list .clients-item:hover .icon-client::before{
+  fill: var(--secondary_color);
 }
 
 .footer {
@@ -317,13 +426,66 @@ p {
   margin: 0;
 }
 
+
+
 .logo__footer {
   
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 
-.contact--item {
-  padding-bottom: 10px;
+.social-container{
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.social-footer{
+    display: flex;
+    margin-top: 6px;
+    flex-direction: column;
+}
+
+
+.social-title {
+  margin-bottom: 20px;
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-foot-link {
+  transition: 300ms;
+  display: inline-block;
+  padding: 12px 12px;
+  fill: var(--white-colo);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+}
+
+.social-foot-link:focus,
+.social-foot-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social_icon {
+  width: 20px;
+  height: 20px;
+  color: var(--white-color);
+}
+
+.contact--item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 
@@ -391,7 +553,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 1.08px;
+  letter-spacing: 1.08px; 
 }
 
 .product-description {
